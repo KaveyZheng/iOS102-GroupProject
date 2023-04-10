@@ -15,7 +15,7 @@ Personal journal app that users can use to save memories by taking notes and pho
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** 
-Photo 
+Photo/Journalling 
 - **Mobile:** 
 iOS Mobile
 - **Story:**
