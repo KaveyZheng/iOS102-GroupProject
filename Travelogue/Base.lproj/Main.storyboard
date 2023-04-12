@@ -256,10 +256,10 @@
             </objects>
             <point key="canvasLocation" x="1840.4580152671756" y="1545.7746478873239"/>
         </scene>
-        <!--View Controller-->
+        <!--Create View Controller-->
         <scene sceneID="cWk-ZW-jy2">
             <objects>
-                <viewController id="Ok9-9m-Okg" sceneMemberID="viewController">
+                <viewController id="Ok9-9m-Okg" customClass="CreateViewController" customModule="Travelogue" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Id-5B-L5U">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,7 +269,11 @@
                     <navigationItem key="navigationItem" id="axi-9L-gyR">
                         <rightBarButtonItems>
                             <barButtonItem title="Post" id="JsB-BR-lq8"/>
-                            <barButtonItem title="Attatch Item" id="Ydz-o4-vJf"/>
+                            <barButtonItem title="Attatch Item" id="Ydz-o4-vJf">
+                                <connections>
+                                    <action selector="attatchedPhotoTapped:" destination="Ok9-9m-Okg" id="PN5-Jq-cTk"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                 </viewController>

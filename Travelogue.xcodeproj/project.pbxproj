@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2A51BF29E65FC30054F361 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A51BE29E65FC30054F361 /* CreateViewController.swift */; };
 		DDA661D529E60D1C00091E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA661D429E60D1C00091E6C /* AppDelegate.swift */; };
 		DDA661D729E60D1C00091E6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA661D629E60D1C00091E6C /* SceneDelegate.swift */; };
 		DDA661D929E60D1C00091E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA661D829E60D1C00091E6C /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2A51BE29E65FC30054F361 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		DDA661D129E60D1C00091E6C /* Travelogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA661D429E60D1C00091E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDA661D629E60D1C00091E6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2A51BD29E65F9F0054F361 /* Create Post */ = {
+			isa = PBXGroup;
+			children = (
+				1A2A51BE29E65FC30054F361 /* CreateViewController.swift */,
+			);
+			path = "Create Post";
+			sourceTree = "<group>";
+		};
 		DDA661C829E60D1C00091E6C = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 				DDA661D429E60D1C00091E6C /* AppDelegate.swift */,
 				DDA661D629E60D1C00091E6C /* SceneDelegate.swift */,
 				DDA661ED29E60EC400091E6C /* Models */,
+				1A2A51BD29E65F9F0054F361 /* Create Post */,
 				DDA661F029E6116600091E6C /* Login & Sign Up */,
 				DDA661F129E61E7800091E6C /* FeedViewController.swift */,
 				DDA661DA29E60D1C00091E6C /* Main.storyboard */,
@@ -174,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2A51BF29E65FC30054F361 /* CreateViewController.swift in Sources */,
 				DDA661EC29E60E9800091E6C /* User.swift in Sources */,
 				DDA661D929E60D1C00091E6C /* ViewController.swift in Sources */,
 				DDA661D529E60D1C00091E6C /* AppDelegate.swift in Sources */,
