@@ -212,42 +212,14 @@
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="4ER-UM-RlN"/>
                         <barButtonItem key="rightBarButtonItem" title="Create!" id="kwD-uT-jr9">
                             <connections>
-                                <segue destination="Ok9-9m-Okg" kind="show" id="3Db-0I-lcX"/>
+                                <action selector="didTapCreate:" destination="P0h-yl-zvX" id="7gr-Lq-nSI"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="mapView" destination="6LQ-zB-WsE" id="Iwt-8F-bKm"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l6J-mf-3oN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2767.1755725190837" y="734.50704225352115"/>
-        </scene>
-        <!--Create View Controller-->
-        <scene sceneID="cWk-ZW-jy2">
-            <objects>
-                <viewController id="Ok9-9m-Okg" customClass="CreateViewController" customModule="Travelogue" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9Id-5B-L5U">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="sDC-O0-O9n"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="axi-9L-gyR">
-                        <rightBarButtonItems>
-                            <barButtonItem title="Post" id="JsB-BR-lq8"/>
-                            <barButtonItem title="Create!" id="Ydz-o4-vJf">
-                                <connections>
-                                    <action selector="attatchedPhotoTapped:" destination="Ok9-9m-Okg" id="PN5-Jq-cTk"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ozx-GB-rUv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2767" y="1546"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uVe-WX-yhA">

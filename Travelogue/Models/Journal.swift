@@ -10,19 +10,18 @@ import CoreLocation
 import UIKit
 
 class Journal {
-    let title: String
-    let note: String
     
     var image: UIImage?
     var imageLocation: CLLocation?
-    
-    init(title: String, note: String) {
-        self.title = title
-        self.note = note
-    }
 
+    init(image: UIImage, imageLocation: CLLocation) {
+        self.image = nil
+        self.imageLocation = nil
+    }
+    
     func set(_ image: UIImage, with location: CLLocation) {
         self.image = image
         self.imageLocation = location
     }
+
 }

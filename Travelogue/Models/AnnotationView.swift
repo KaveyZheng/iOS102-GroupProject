@@ -10,7 +10,7 @@ import MapKit
 
 class AnnotationView: MKAnnotationView {
 
-    static var identifier = "TaskAnnotationView"
+    static var identifier = "AnnotationView"
 
     // Some constants to use when sizing the various views
     enum Constants {
