@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A2A51BF29E65FC30054F361 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A51BE29E65FC30054F361 /* CreateViewController.swift */; };
+		DD5D5F0329EF68EA00198EFB /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D5F0229EF68EA00198EFB /* AnnotationView.swift */; };
 		DDA661D529E60D1C00091E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA661D429E60D1C00091E6C /* AppDelegate.swift */; };
 		DDA661D729E60D1C00091E6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA661D629E60D1C00091E6C /* SceneDelegate.swift */; };
 		DDA661D929E60D1C00091E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA661D829E60D1C00091E6C /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		1A2A51BE29E65FC30054F361 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		DD5D5F0229EF68EA00198EFB /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		DDA661D129E60D1C00091E6C /* Travelogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA661D429E60D1C00091E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDA661D629E60D1C00091E6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				DDA661EB29E60E9800091E6C /* User.swift */,
 				DDA661F329E631B900091E6C /* Journal.swift */,
+				DD5D5F0229EF68EA00198EFB /* AnnotationView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A2A51BF29E65FC30054F361 /* CreateViewController.swift in Sources */,
+				DD5D5F0329EF68EA00198EFB /* AnnotationView.swift in Sources */,
 				DDA661EC29E60E9800091E6C /* User.swift in Sources */,
 				DDA661D929E60D1C00091E6C /* ViewController.swift in Sources */,
 				DDA661D529E60D1C00091E6C /* AppDelegate.swift in Sources */,

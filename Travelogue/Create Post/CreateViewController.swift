@@ -10,18 +10,15 @@ import MapKit
 import PhotosUI
 
 class CreateViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
     @IBAction func attatchedPhotoTapped(_ sender: Any) {
-        // TODO: Check and/or request photo library access authorization.
-        // If authorized, show photo picker, otherwise request authorization.
-        // If authorization denied, show alert with option to go to settings to update authorization.
+        
         if PHPhotoLibrary.authorizationStatus(for: .readWrite) != .authorized {
             // Request photo library access
             PHPhotoLibrary.requestAuthorization(for: .readWrite) { [weak self] status in
@@ -47,13 +44,8 @@ class CreateViewController: UIViewController {
 
     }
     
-    
-    
-    
-    
     private func presentImagePicker() {
-        // TODO: Create, configure and present image picker.
-        // Create a configuration object
+        
         var config = PHPickerConfiguration(photoLibrary: PHPhotoLibrary.shared())
 
         // Set the filter to only show images as options (i.e. no videos, etc.).
@@ -76,15 +68,6 @@ class CreateViewController: UIViewController {
         
 
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
@@ -125,6 +108,7 @@ extension CreateViewController {
         present(alertController, animated: true)
     }
 }
+
 extension CreateViewController: PHPickerViewControllerDelegate {
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
         // Dismiss the picker
