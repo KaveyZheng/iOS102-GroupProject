@@ -72,7 +72,11 @@ This will start as a personal journaling app, but can be expanded to be able to 
 <img src="https://i.imgur.com/SnV701b.png" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
+![travelogue](https://user-images.githubusercontent.com/109322859/234120266-c7d55a96-a7bf-44c9-afe9-4b09e117da60.gif)
+![map](https://user-images.githubusercontent.com/109322859/234120318-cf4aa6bc-dca1-40c9-8b0f-2d82b04f894f.gif)
+
+
+
 ### Models
 [Add table of models]
 ### Networking
